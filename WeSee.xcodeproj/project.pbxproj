@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		160D915318E98B0100198E1F /* WSMessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 160D915218E98B0100198E1F /* WSMessageViewController.m */; };
+		160D915518E98B2000198E1F /* WSMessageStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 160D915418E98B2000198E1F /* WSMessageStoryboard.storyboard */; };
 		16BDB5BE18E8FACB0019DF4D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16BDB5BD18E8FACB0019DF4D /* Foundation.framework */; };
 		16BDB5C018E8FACB0019DF4D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16BDB5BF18E8FACB0019DF4D /* CoreGraphics.framework */; };
 		16BDB5C218E8FACB0019DF4D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16BDB5C118E8FACB0019DF4D /* UIKit.framework */; };
@@ -51,6 +53,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		160D915118E98B0100198E1F /* WSMessageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSMessageViewController.h; sourceTree = "<group>"; };
+		160D915218E98B0100198E1F /* WSMessageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSMessageViewController.m; sourceTree = "<group>"; };
+		160D915418E98B2000198E1F /* WSMessageStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = WSMessageStoryboard.storyboard; sourceTree = "<group>"; };
 		16BDB5BA18E8FACB0019DF4D /* WeSee.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeSee.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		16BDB5BD18E8FACB0019DF4D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		16BDB5BF18E8FACB0019DF4D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -122,6 +127,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		160D915018E98AE300198E1F /* Message */ = {
+			isa = PBXGroup;
+			children = (
+				160D915118E98B0100198E1F /* WSMessageViewController.h */,
+				160D915218E98B0100198E1F /* WSMessageViewController.m */,
+				160D915418E98B2000198E1F /* WSMessageStoryboard.storyboard */,
+			);
+			path = Message;
+			sourceTree = "<group>";
+		};
 		16BDB5B118E8FACB0019DF4D = {
 			isa = PBXGroup;
 			children = (
@@ -257,6 +272,7 @@
 		16BDB60018E907220019DF4D /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				160D915018E98AE300198E1F /* Message */,
 				16BDB62B18E94D180019DF4D /* Root */,
 				16BDB62518E9439E0019DF4D /* Left */,
 				16BDB60718E9085F0019DF4D /* Hot */,
@@ -422,6 +438,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				16BDB5FA18E902030019DF4D /* File in Resources */,
+				160D915518E98B2000198E1F /* WSMessageStoryboard.storyboard in Resources */,
 				16BDB61A18E913120019DF4D /* WSMeStoryboard.storyboard in Resources */,
 				16BDB61218E912DA0019DF4D /* WSHotStoryboard.storyboard in Resources */,
 				16BDB5C818E8FACB0019DF4D /* InfoPlist.strings in Resources */,
@@ -485,6 +502,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				160D915318E98B0100198E1F /* WSMessageViewController.m in Sources */,
 				16BDB62A18E943D70019DF4D /* WSLeftViewController.m in Sources */,
 				16BDB5CE18E8FACB0019DF4D /* AppDelegate.m in Sources */,
 				16BDB60618E907F10019DF4D /* WSBaseViewController.m in Sources */,

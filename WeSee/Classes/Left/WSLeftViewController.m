@@ -30,7 +30,7 @@
 {
     [super viewDidLoad];
     self.tableView = ({
-        UITableView *tableView = [[UITableView alloc] initWithFrame:CGRectMake(0, (self.view.frame.size.height - 54 * 5) / 2.0f, self.view.frame.size.width, 54 * 5) style:UITableViewStylePlain];
+        UITableView *tableView = [[UITableView alloc] initWithFrame:CGRectMake(0, (self.view.frame.size.height - 54 * 4) / 2.0f, self.view.frame.size.width, 54 * 5) style:UITableViewStylePlain];
         tableView.autoresizingMask = UIViewAutoresizingFlexibleTopMargin | UIViewAutoresizingFlexibleBottomMargin | UIViewAutoresizingFlexibleWidth;
         tableView.delegate = self;
         tableView.dataSource = self;
@@ -60,6 +60,14 @@
             [self.sideMenuViewController setContentViewController:[WSStoryboard(@"WSHotStoryboard") instantiateInitialViewController] animated:YES];
             [self.sideMenuViewController hideMenuViewController];
             break;
+        case 2:
+            [self.sideMenuViewController setContentViewController:[WSStoryboard(@"WSMessageStoryboard") instantiateInitialViewController] animated:YES];
+            [self.sideMenuViewController hideMenuViewController];
+            break;
+        case 3:
+            [self.sideMenuViewController setContentViewController:[WSStoryboard(@"WSMeStoryboard") instantiateInitialViewController] animated:YES];
+            [self.sideMenuViewController hideMenuViewController];
+            break;
         default:
             break;
     }
@@ -80,7 +88,7 @@
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)sectionIndex
 {
-    return 2;
+    return 4;
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
@@ -98,7 +106,7 @@
         cell.selectedBackgroundView = [[UIView alloc] init];
     }
     
-    NSArray *titles = @[@"Home", @"Hot"];
+    NSArray *titles = @[@"首页", @"热门",@"消息",@"我"];
     cell.textLabel.text = titles[indexPath.row];
     
     return cell;

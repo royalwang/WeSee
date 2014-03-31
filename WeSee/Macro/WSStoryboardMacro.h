@@ -14,5 +14,7 @@
 #define kWS_Storyboard_Home @"WSHome"
 #define kWS_Storyboard_Hot @"WSHot"
 #define kWS_Storyboard_Left @"WSLeft"
+#define kWS_Storyboard_Message @"WSMessage"
+#define kWS_Storyboard_Me @"WSMe"
 
 #endif
