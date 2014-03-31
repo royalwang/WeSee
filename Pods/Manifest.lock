@@ -1,0 +1,13 @@
+PODS:
+  - CRGradientNavigationBar (0.3.2)
+  - RESideMenu (4.0.3)
+
+DEPENDENCIES:
+  - CRGradientNavigationBar
+  - RESideMenu (~> 4.0.3)
+
+SPEC CHECKSUMS:
+  CRGradientNavigationBar: dc3ffb640685b43c27f096e7d466e80f9fa887fe
+  RESideMenu: 5a9c11e9e649c601b8ffe5253910bde2e3d956ee
+
+COCOAPODS: 0.29.0

@@ -1,0 +1,6 @@
+/* 该文件夹下存放项目中用到的数据模型 */
+    |- BaseModel.h
+    |- BaseModel.m
+    |- CollectionModel.h
+    |- CollectionModel.m
+    ...

@@ -19,6 +19,25 @@
 		16BDB5D918E8FACB0019DF4D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16BDB5C118E8FACB0019DF4D /* UIKit.framework */; };
 		16BDB5E118E8FACB0019DF4D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 16BDB5DF18E8FACB0019DF4D /* InfoPlist.strings */; };
 		16BDB5E318E8FACB0019DF4D /* WeSeeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 16BDB5E218E8FACB0019DF4D /* WeSeeTests.m */; };
+		16BDB5F918E902030019DF4D /* File in Resources */ = {isa = PBXBuildFile; fileRef = 16BDB5EC18E902030019DF4D /* File */; };
+		16BDB5FA18E902030019DF4D /* File in Resources */ = {isa = PBXBuildFile; fileRef = 16BDB5EE18E902030019DF4D /* File */; };
+		16BDB5FB18E902030019DF4D /* File in Resources */ = {isa = PBXBuildFile; fileRef = 16BDB5F018E902030019DF4D /* File */; };
+		16BDB5FC18E902030019DF4D /* File in Resources */ = {isa = PBXBuildFile; fileRef = 16BDB5F218E902030019DF4D /* File */; };
+		16BDB5FD18E902030019DF4D /* File in Resources */ = {isa = PBXBuildFile; fileRef = 16BDB5F418E902030019DF4D /* File */; };
+		16BDB5FE18E902030019DF4D /* File in Resources */ = {isa = PBXBuildFile; fileRef = 16BDB5F618E902030019DF4D /* File */; };
+		16BDB5FF18E902030019DF4D /* File in Resources */ = {isa = PBXBuildFile; fileRef = 16BDB5F818E902030019DF4D /* File */; };
+		16BDB60618E907F10019DF4D /* WSBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 16BDB60518E907F10019DF4D /* WSBaseViewController.m */; };
+		16BDB60D18E908880019DF4D /* WSHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 16BDB60B18E908880019DF4D /* WSHomeViewController.m */; };
+		16BDB61018E912A50019DF4D /* WSHomeStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16BDB60F18E912A50019DF4D /* WSHomeStoryboard.storyboard */; };
+		16BDB61218E912DA0019DF4D /* WSHotStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16BDB61118E912DA0019DF4D /* WSHotStoryboard.storyboard */; };
+		16BDB61518E912EF0019DF4D /* WSHotViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 16BDB61418E912EF0019DF4D /* WSHotViewController.m */; };
+		16BDB61818E913010019DF4D /* WSMeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 16BDB61718E913010019DF4D /* WSMeViewController.m */; };
+		16BDB61A18E913120019DF4D /* WSMeStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16BDB61918E913120019DF4D /* WSMeStoryboard.storyboard */; };
+		16BDB61D18E91A850019DF4D /* WSBaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 16BDB61C18E91A850019DF4D /* WSBaseNavigationController.m */; };
+		16BDB62018E91E230019DF4D /* WSRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 16BDB61F18E91E230019DF4D /* WSRootViewController.m */; };
+		16BDB62718E943BD0019DF4D /* WSLeftStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16BDB62618E943BD0019DF4D /* WSLeftStoryboard.storyboard */; };
+		16BDB62A18E943D70019DF4D /* WSLeftViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 16BDB62918E943D70019DF4D /* WSLeftViewController.m */; };
+		2A50363444434CC8929A0D32 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 20397C2490C649E79C45EB11 /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +67,34 @@
 		16BDB5DE18E8FACB0019DF4D /* WeSeeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WeSeeTests-Info.plist"; sourceTree = "<group>"; };
 		16BDB5E018E8FACB0019DF4D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		16BDB5E218E8FACB0019DF4D /* WeSeeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WeSeeTests.m; sourceTree = "<group>"; };
+		16BDB5EC18E902030019DF4D /* File */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = File; sourceTree = "<group>"; };
+		16BDB5EE18E902030019DF4D /* File */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = File; sourceTree = "<group>"; };
+		16BDB5F018E902030019DF4D /* File */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = File; sourceTree = "<group>"; };
+		16BDB5F218E902030019DF4D /* File */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = File; sourceTree = "<group>"; };
+		16BDB5F418E902030019DF4D /* File */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = File; sourceTree = "<group>"; };
+		16BDB5F618E902030019DF4D /* File */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = File; sourceTree = "<group>"; };
+		16BDB5F818E902030019DF4D /* File */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = File; sourceTree = "<group>"; };
+		16BDB60418E907F10019DF4D /* WSBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSBaseViewController.h; sourceTree = "<group>"; };
+		16BDB60518E907F10019DF4D /* WSBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSBaseViewController.m; sourceTree = "<group>"; };
+		16BDB60A18E908880019DF4D /* WSHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSHomeViewController.h; sourceTree = "<group>"; };
+		16BDB60B18E908880019DF4D /* WSHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSHomeViewController.m; sourceTree = "<group>"; };
+		16BDB60F18E912A50019DF4D /* WSHomeStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = WSHomeStoryboard.storyboard; sourceTree = "<group>"; };
+		16BDB61118E912DA0019DF4D /* WSHotStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = WSHotStoryboard.storyboard; sourceTree = "<group>"; };
+		16BDB61318E912EF0019DF4D /* WSHotViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSHotViewController.h; sourceTree = "<group>"; };
+		16BDB61418E912EF0019DF4D /* WSHotViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSHotViewController.m; sourceTree = "<group>"; };
+		16BDB61618E913010019DF4D /* WSMeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSMeViewController.h; sourceTree = "<group>"; };
+		16BDB61718E913010019DF4D /* WSMeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSMeViewController.m; sourceTree = "<group>"; };
+		16BDB61918E913120019DF4D /* WSMeStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = WSMeStoryboard.storyboard; sourceTree = "<group>"; };
+		16BDB61B18E91A850019DF4D /* WSBaseNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSBaseNavigationController.h; sourceTree = "<group>"; };
+		16BDB61C18E91A850019DF4D /* WSBaseNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSBaseNavigationController.m; sourceTree = "<group>"; };
+		16BDB61E18E91E230019DF4D /* WSRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WSRootViewController.h; path = ../../General/Controllers/WSRootViewController.h; sourceTree = "<group>"; };
+		16BDB61F18E91E230019DF4D /* WSRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WSRootViewController.m; path = ../../General/Controllers/WSRootViewController.m; sourceTree = "<group>"; };
+		16BDB62218E927A90019DF4D /* WSStoryboardMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WSStoryboardMacro.h; sourceTree = "<group>"; };
+		16BDB62618E943BD0019DF4D /* WSLeftStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = WSLeftStoryboard.storyboard; sourceTree = "<group>"; };
+		16BDB62818E943D70019DF4D /* WSLeftViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSLeftViewController.h; sourceTree = "<group>"; };
+		16BDB62918E943D70019DF4D /* WSLeftViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSLeftViewController.m; sourceTree = "<group>"; };
+		20397C2490C649E79C45EB11 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		634AA486C7794350AEA934A6 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +105,7 @@
 				16BDB5C018E8FACB0019DF4D /* CoreGraphics.framework in Frameworks */,
 				16BDB5C218E8FACB0019DF4D /* UIKit.framework in Frameworks */,
 				16BDB5BE18E8FACB0019DF4D /* Foundation.framework in Frameworks */,
+				2A50363444434CC8929A0D32 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +129,7 @@
 				16BDB5DC18E8FACB0019DF4D /* WeSeeTests */,
 				16BDB5BC18E8FACB0019DF4D /* Frameworks */,
 				16BDB5BB18E8FACB0019DF4D /* Products */,
+				634AA486C7794350AEA934A6 /* Pods.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -100,6 +149,7 @@
 				16BDB5BF18E8FACB0019DF4D /* CoreGraphics.framework */,
 				16BDB5C118E8FACB0019DF4D /* UIKit.framework */,
 				16BDB5D618E8FACB0019DF4D /* XCTest.framework */,
+				20397C2490C649E79C45EB11 /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -107,6 +157,14 @@
 		16BDB5C318E8FACB0019DF4D /* WeSee */ = {
 			isa = PBXGroup;
 			children = (
+				16BDB60018E907220019DF4D /* Classes */,
+				16BDB5EC18E902030019DF4D /* File */,
+				16BDB5ED18E902030019DF4D /* General */,
+				16BDB5EF18E902030019DF4D /* Helpers */,
+				16BDB5F118E902030019DF4D /* Macro */,
+				16BDB5F318E902030019DF4D /* Models */,
+				16BDB5F518E902030019DF4D /* Sections */,
+				16BDB5F718E902030019DF4D /* Vendors */,
 				16BDB5CC18E8FACB0019DF4D /* AppDelegate.h */,
 				16BDB5CD18E8FACB0019DF4D /* AppDelegate.m */,
 				16BDB5CF18E8FACB0019DF4D /* Images.xcassets */,
@@ -144,6 +202,148 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		16BDB5ED18E902030019DF4D /* General */ = {
+			isa = PBXGroup;
+			children = (
+				16BDB60118E907AB0019DF4D /* Categories */,
+				16BDB60218E907AB0019DF4D /* Controllers */,
+				16BDB60318E907AB0019DF4D /* Views */,
+				16BDB5EE18E902030019DF4D /* File */,
+			);
+			path = General;
+			sourceTree = "<group>";
+		};
+		16BDB5EF18E902030019DF4D /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				16BDB5F018E902030019DF4D /* File */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		16BDB5F118E902030019DF4D /* Macro */ = {
+			isa = PBXGroup;
+			children = (
+				16BDB5F218E902030019DF4D /* File */,
+				16BDB62218E927A90019DF4D /* WSStoryboardMacro.h */,
+			);
+			path = Macro;
+			sourceTree = "<group>";
+		};
+		16BDB5F318E902030019DF4D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				16BDB5F418E902030019DF4D /* File */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		16BDB5F518E902030019DF4D /* Sections */ = {
+			isa = PBXGroup;
+			children = (
+				16BDB5F618E902030019DF4D /* File */,
+			);
+			path = Sections;
+			sourceTree = "<group>";
+		};
+		16BDB5F718E902030019DF4D /* Vendors */ = {
+			isa = PBXGroup;
+			children = (
+				16BDB5F818E902030019DF4D /* File */,
+			);
+			path = Vendors;
+			sourceTree = "<group>";
+		};
+		16BDB60018E907220019DF4D /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				16BDB62B18E94D180019DF4D /* Root */,
+				16BDB62518E9439E0019DF4D /* Left */,
+				16BDB60718E9085F0019DF4D /* Hot */,
+				16BDB60818E9085F0019DF4D /* Home */,
+				16BDB60918E9085F0019DF4D /* Me */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		16BDB60118E907AB0019DF4D /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Categories;
+			path = WeSee/General/Categories;
+			sourceTree = SOURCE_ROOT;
+		};
+		16BDB60218E907AB0019DF4D /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				16BDB60418E907F10019DF4D /* WSBaseViewController.h */,
+				16BDB60518E907F10019DF4D /* WSBaseViewController.m */,
+				16BDB61B18E91A850019DF4D /* WSBaseNavigationController.h */,
+				16BDB61C18E91A850019DF4D /* WSBaseNavigationController.m */,
+			);
+			name = Controllers;
+			path = WeSee/General/Controllers;
+			sourceTree = SOURCE_ROOT;
+		};
+		16BDB60318E907AB0019DF4D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Views;
+			path = WeSee/General/Views;
+			sourceTree = SOURCE_ROOT;
+		};
+		16BDB60718E9085F0019DF4D /* Hot */ = {
+			isa = PBXGroup;
+			children = (
+				16BDB61318E912EF0019DF4D /* WSHotViewController.h */,
+				16BDB61418E912EF0019DF4D /* WSHotViewController.m */,
+				16BDB61118E912DA0019DF4D /* WSHotStoryboard.storyboard */,
+			);
+			path = Hot;
+			sourceTree = "<group>";
+		};
+		16BDB60818E9085F0019DF4D /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				16BDB60A18E908880019DF4D /* WSHomeViewController.h */,
+				16BDB60B18E908880019DF4D /* WSHomeViewController.m */,
+				16BDB60F18E912A50019DF4D /* WSHomeStoryboard.storyboard */,
+			);
+			name = Home;
+			path = Main;
+			sourceTree = "<group>";
+		};
+		16BDB60918E9085F0019DF4D /* Me */ = {
+			isa = PBXGroup;
+			children = (
+				16BDB61618E913010019DF4D /* WSMeViewController.h */,
+				16BDB61718E913010019DF4D /* WSMeViewController.m */,
+				16BDB61918E913120019DF4D /* WSMeStoryboard.storyboard */,
+			);
+			path = Me;
+			sourceTree = "<group>";
+		};
+		16BDB62518E9439E0019DF4D /* Left */ = {
+			isa = PBXGroup;
+			children = (
+				16BDB62818E943D70019DF4D /* WSLeftViewController.h */,
+				16BDB62918E943D70019DF4D /* WSLeftViewController.m */,
+				16BDB62618E943BD0019DF4D /* WSLeftStoryboard.storyboard */,
+			);
+			path = Left;
+			sourceTree = "<group>";
+		};
+		16BDB62B18E94D180019DF4D /* Root */ = {
+			isa = PBXGroup;
+			children = (
+				16BDB61E18E91E230019DF4D /* WSRootViewController.h */,
+				16BDB61F18E91E230019DF4D /* WSRootViewController.m */,
+			);
+			path = Root;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -151,9 +351,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 16BDB5E618E8FACB0019DF4D /* Build configuration list for PBXNativeTarget "WeSee" */;
 			buildPhases = (
+				E73DECEE69DC4D80B6B7DA9E /* Check Pods Manifest.lock */,
 				16BDB5B618E8FACB0019DF4D /* Sources */,
 				16BDB5B718E8FACB0019DF4D /* Frameworks */,
 				16BDB5B818E8FACB0019DF4D /* Resources */,
+				8DC4F7EE511B4B34BCBC305E /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -219,8 +421,19 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				16BDB5FA18E902030019DF4D /* File in Resources */,
+				16BDB61A18E913120019DF4D /* WSMeStoryboard.storyboard in Resources */,
+				16BDB61218E912DA0019DF4D /* WSHotStoryboard.storyboard in Resources */,
 				16BDB5C818E8FACB0019DF4D /* InfoPlist.strings in Resources */,
+				16BDB5FD18E902030019DF4D /* File in Resources */,
+				16BDB5FC18E902030019DF4D /* File in Resources */,
+				16BDB62718E943BD0019DF4D /* WSLeftStoryboard.storyboard in Resources */,
+				16BDB5FE18E902030019DF4D /* File in Resources */,
 				16BDB5D018E8FACB0019DF4D /* Images.xcassets in Resources */,
+				16BDB5F918E902030019DF4D /* File in Resources */,
+				16BDB5FB18E902030019DF4D /* File in Resources */,
+				16BDB61018E912A50019DF4D /* WSHomeStoryboard.storyboard in Resources */,
+				16BDB5FF18E902030019DF4D /* File in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -234,13 +447,53 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		8DC4F7EE511B4B34BCBC305E /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E73DECEE69DC4D80B6B7DA9E /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		16BDB5B618E8FACB0019DF4D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				16BDB62A18E943D70019DF4D /* WSLeftViewController.m in Sources */,
 				16BDB5CE18E8FACB0019DF4D /* AppDelegate.m in Sources */,
+				16BDB60618E907F10019DF4D /* WSBaseViewController.m in Sources */,
 				16BDB5CA18E8FACB0019DF4D /* main.m in Sources */,
+				16BDB60D18E908880019DF4D /* WSHomeViewController.m in Sources */,
+				16BDB61D18E91A850019DF4D /* WSBaseNavigationController.m in Sources */,
+				16BDB61818E913010019DF4D /* WSMeViewController.m in Sources */,
+				16BDB62018E91E230019DF4D /* WSRootViewController.m in Sources */,
+				16BDB61518E912EF0019DF4D /* WSHotViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -354,12 +607,14 @@
 		};
 		16BDB5E718E8FACB0019DF4D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 634AA486C7794350AEA934A6 /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "WeSee/WeSee-Prefix.pch";
 				INFOPLIST_FILE = "WeSee/WeSee-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -367,12 +622,14 @@
 		};
 		16BDB5E818E8FACB0019DF4D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 634AA486C7794350AEA934A6 /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "WeSee/WeSee-Prefix.pch";
 				INFOPLIST_FILE = "WeSee/WeSee-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -437,6 +694,7 @@
 				16BDB5E818E8FACB0019DF4D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		16BDB5E918E8FACB0019DF4D /* Build configuration list for PBXNativeTarget "WeSeeTests" */ = {
 			isa = XCConfigurationList;
@@ -445,6 +703,7 @@
 				16BDB5EB18E8FACB0019DF4D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

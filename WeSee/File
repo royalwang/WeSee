@@ -1,0 +1,10 @@
+Cocoapods
+
+业务无关的类库可以通过 Cocoapods 来方便地管理，如SDWebImage,Reachability等等。还有一些是多个应用都会用到的基础模块，比如HBAPI、HBSNS 、HBFoundation（HB为公司名首字母）等等，可以建一个私有的git repo，然后加到podfile中，这样如果HBAPI有更新，只需要pod update一下就行了。
+
+顺便说一下HBFoundation，这个git仓库中可以放一些自己写的所有应用基本上都会用到的小模块。如很多app都会有隔一段时间跳出一个求好评的alertView，就可以写一个HBRating类，这样需要使用该功能的app只需加上一句：[HBRating checkIfShouldPopupWithAppID:(NSInteger)appID]就行了。又比如app都有接受push notification的需求，可以写一个HBAPNS类，等等。
+
+开发流程
+
+在拿到设计图后，就可以针对设计图抽离出可复用的Classes/Views/Helpers，考虑一下某个效果的具体实现，使用合适的设计模式来避免大量的if/else嵌套，等等。不要一下子就钻到Sections中去实现页面效果和功能，初看起来可能会快一点，但只要有点复杂度的项目，这种做法到后来只会吃尽苦头，代码会变的越来越难维护。所以前期一定要做好充足的准备工作。
+
