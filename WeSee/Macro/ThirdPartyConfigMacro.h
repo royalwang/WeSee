@@ -10,8 +10,8 @@
 #define WeSee_ThirdPartyConfigMacro_h
 
 //parse
-kParse_ApplicationId @"dqd1Itdo3f81j1KJ0xMbtkTTcUHUVAwbhpVIbOdq"
-kParse_ClientKey @"fugHeeJNROt9tsqMLHEhVpb1v60K8RazxC6vD5Io"
+#define kParse_ApplicationId @"dqd1Itdo3f81j1KJ0xMbtkTTcUHUVAwbhpVIbOdq"
+#define kParse_ClientKey @"fugHeeJNROt9tsqMLHEhVpb1v60K8RazxC6vD5Io"
 
 //qiniu
 #endif
