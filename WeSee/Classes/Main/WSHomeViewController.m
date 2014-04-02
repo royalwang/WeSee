@@ -8,6 +8,8 @@
 
 #import "WSHomeViewController.h"
 #import <Parse/Parse.h>
+#import "WSLoginWrapper.h"
+#import <TencentOpenAPI/TencentOAuth.h>
 
 @interface WSHomeViewController ()
 
@@ -37,6 +39,16 @@
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+- (IBAction)loginButtonClicked:(UIButton *)sender
+{
+    [WSLoginWrapper wrapperLoginWithType:ThirdpartyLoginType_QQ completion:^(id obj,NSUInteger status,NSError *error){
+        TencentOAuth *tencentOAuth = (TencentOAuth*)obj;
+        if (tencentOAuth) {
+            NSLog(@"statusCode:%d,accessToken:%@",status,tencentOAuth.accessToken);
+        }
+    }];
 }
 
 @end

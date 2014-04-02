@@ -9,6 +9,7 @@
 #import "AppDelegate.h"
 #import "WSRootViewController.h"
 #import <Parse/Parse.h>
+#import <TencentOpenAPI/TencentOAuth.h>
 
 @implementation AppDelegate
 
@@ -52,6 +53,14 @@
 - (void)applicationWillTerminate:(UIApplication *)application
 {
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
+}
+//重写以下这两个方法是qq互联SDK要求的
+- (BOOL)application:(UIApplication *)application openURL:(NSURL *)url sourceApplication:(NSString *)sourceApplication annotation:(id)annotation{
+    return [TencentOAuth HandleOpenURL:url];
+}
+
+- (BOOL)application:(UIApplication *)application handleOpenURL:(NSURL *)url{
+    return [TencentOAuth HandleOpenURL:url];
 }
 
 @end
