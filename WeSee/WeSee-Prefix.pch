@@ -16,4 +16,7 @@
     #import "WSStoryboardMacro.h"
     #import "Macro/ThirdPartyConfigMacro.h"
     #import "WSGlobalManager.h"
+    #import "WSUserDefaultMacro.h"
+    #import "ZLUserDefalutHelper.h"
+    #import "WSUIMacro.h"
 #endif

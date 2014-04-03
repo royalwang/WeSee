@@ -9,6 +9,7 @@
  *  所有viewController的基类
  */
 #import <UIKit/UIKit.h>
+#import "AppDelegate.h"
 
 @interface WSBaseViewController : UIViewController
 

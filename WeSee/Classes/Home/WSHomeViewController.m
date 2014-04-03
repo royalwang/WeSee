@@ -7,11 +7,13 @@
 //
 
 #import "WSHomeViewController.h"
-#import <Parse/Parse.h>
-#import "WSLoginWrapper.h"
-#import <TencentOpenAPI/TencentOAuth.h>
+#import "WSLoginView.h"
 
 @interface WSHomeViewController ()
+
+{
+    WSLoginView *_loginView;
+}
 
 @end
 
@@ -35,20 +37,35 @@
     // Do any additional setup after loading the view from its nib.
 }
 
+- (void)viewWillAppear:(BOOL)animated
+{
+    [super viewWillAppear:animated];
+    //检查用户是否己经登陆
+    if ([self checkUserIsLogin]) {
+
+    }else{
+        UIWindow *window = [[[UIApplication sharedApplication] windows] firstObject];
+        if (!_loginView) {
+            _loginView = [[[NSBundle mainBundle] loadNibNamed:@"WSLoginView" owner:self options:nil] objectAtIndex:0];
+        }
+        [window addSubview:_loginView];
+        [ZLUserDefalutHelper setUserDefaultValue:[NSDictionary dictionary] forKey:kUserInfo];
+    }
+}
+
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
 
-- (IBAction)loginButtonClicked:(UIButton *)sender
+- (BOOL)checkUserIsLogin
 {
-    [WSLoginWrapper wrapperLoginWithType:ThirdpartyLoginType_QQ completion:^(id obj,NSUInteger status,NSError *error){
-        TencentOAuth *tencentOAuth = (TencentOAuth*)obj;
-        if (tencentOAuth) {
-            NSLog(@"statusCode:%d,accessToken:%@",status,tencentOAuth.accessToken);
-        }
-    }];
+//    NSDictionary *userInfo = [ZLUserDefalutHelper userDefaultValueForKey:kUserInfo];
+//    if (userInfo) {
+//        return YES;
+//    }
+    return NO;
 }
 
 @end

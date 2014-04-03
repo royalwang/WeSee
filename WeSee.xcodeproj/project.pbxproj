@@ -15,6 +15,9 @@
 		164D5C5D18ED692A002C82F2 /* RECommonFunctions.m in Sources */ = {isa = PBXBuildFile; fileRef = 164D5C5818ED692A002C82F2 /* RECommonFunctions.m */; };
 		164D5C5E18ED692A002C82F2 /* RESideMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 164D5C5A18ED692A002C82F2 /* RESideMenu.m */; };
 		164D5C5F18ED692A002C82F2 /* UIViewController+RESideMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 164D5C5C18ED692A002C82F2 /* UIViewController+RESideMenu.m */; };
+		164D5C6218ED7478002C82F2 /* WSLoginView.m in Sources */ = {isa = PBXBuildFile; fileRef = 164D5C6118ED7478002C82F2 /* WSLoginView.m */; };
+		164D5C6418ED74C8002C82F2 /* WSLoginView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 164D5C6318ED74C8002C82F2 /* WSLoginView.xib */; };
+		164D5C6818ED7A30002C82F2 /* ZLUserDefalutHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 164D5C6718ED7A30002C82F2 /* ZLUserDefalutHelper.m */; };
 		16AB7AD318ECF211001A208B /* WSHomeStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16AB7AD018ECF211001A208B /* WSHomeStoryboard.storyboard */; };
 		16AB7AD418ECF211001A208B /* WSHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 16AB7AD218ECF211001A208B /* WSHomeViewController.m */; };
 		16AB7ADB18ECF23B001A208B /* WSLoginQQManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 16AB7AD718ECF23B001A208B /* WSLoginQQManager.m */; };
@@ -110,6 +113,13 @@
 		164D5C5A18ED692A002C82F2 /* RESideMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RESideMenu.m; sourceTree = "<group>"; };
 		164D5C5B18ED692A002C82F2 /* UIViewController+RESideMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+RESideMenu.h"; sourceTree = "<group>"; };
 		164D5C5C18ED692A002C82F2 /* UIViewController+RESideMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+RESideMenu.m"; sourceTree = "<group>"; };
+		164D5C6018ED7478002C82F2 /* WSLoginView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSLoginView.h; sourceTree = "<group>"; };
+		164D5C6118ED7478002C82F2 /* WSLoginView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSLoginView.m; sourceTree = "<group>"; };
+		164D5C6318ED74C8002C82F2 /* WSLoginView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WSLoginView.xib; sourceTree = "<group>"; };
+		164D5C6518ED7818002C82F2 /* WSUserDefaultMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WSUserDefaultMacro.h; sourceTree = "<group>"; };
+		164D5C6618ED7A30002C82F2 /* ZLUserDefalutHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLUserDefalutHelper.h; sourceTree = "<group>"; };
+		164D5C6718ED7A30002C82F2 /* ZLUserDefalutHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLUserDefalutHelper.m; sourceTree = "<group>"; };
+		164D5C6918ED7E6F002C82F2 /* WSUIMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WSUIMacro.h; sourceTree = "<group>"; };
 		16AB7AD018ECF211001A208B /* WSHomeStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = WSHomeStoryboard.storyboard; sourceTree = "<group>"; };
 		16AB7AD118ECF211001A208B /* WSHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSHomeViewController.h; sourceTree = "<group>"; };
 		16AB7AD218ECF211001A208B /* WSHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSHomeViewController.m; sourceTree = "<group>"; };
@@ -298,6 +308,9 @@
 				16AB7AD618ECF23B001A208B /* WSLoginQQManager.h */,
 				16AB7AD718ECF23B001A208B /* WSLoginQQManager.m */,
 				16AB7AD818ECF23B001A208B /* WSLoginTypedef.h */,
+				164D5C6018ED7478002C82F2 /* WSLoginView.h */,
+				164D5C6118ED7478002C82F2 /* WSLoginView.m */,
+				164D5C6318ED74C8002C82F2 /* WSLoginView.xib */,
 			);
 			path = Login;
 			sourceTree = "<group>";
@@ -421,6 +434,8 @@
 				164D5C0918ED431E002C82F2 /* WSParseDataManager.m */,
 				164D5C0B18ED53F0002C82F2 /* WSGlobalManager.h */,
 				164D5C0C18ED53F0002C82F2 /* WSGlobalManager.m */,
+				164D5C6618ED7A30002C82F2 /* ZLUserDefalutHelper.h */,
+				164D5C6718ED7A30002C82F2 /* ZLUserDefalutHelper.m */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -431,6 +446,7 @@
 				16BDB5F218E902030019DF4D /* File */,
 				16BDB62218E927A90019DF4D /* WSStoryboardMacro.h */,
 				16C473A418EADA1700370E73 /* ThirdPartyConfigMacro.h */,
+				164D5C6518ED7818002C82F2 /* WSUserDefaultMacro.h */,
 			);
 			path = Macro;
 			sourceTree = "<group>";
@@ -441,6 +457,7 @@
 				16BDB5F418E902030019DF4D /* File */,
 				164D5C0E18ED5410002C82F2 /* WSUserModel.h */,
 				164D5C0F18ED5410002C82F2 /* WSUserModel.m */,
+				164D5C6918ED7E6F002C82F2 /* WSUIMacro.h */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -684,6 +701,7 @@
 				16BDB5F918E902030019DF4D /* File in Resources */,
 				16BDB5FB18E902030019DF4D /* File in Resources */,
 				16AB7AD318ECF211001A208B /* WSHomeStoryboard.storyboard in Resources */,
+				164D5C6418ED74C8002C82F2 /* WSLoginView.xib in Resources */,
 				16BDB5FF18E902030019DF4D /* File in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -754,6 +772,7 @@
 				16BDB5CA18E8FACB0019DF4D /* main.m in Sources */,
 				16C4739818EAD8F100370E73 /* AFNetworkReachabilityManager.m in Sources */,
 				164D5C0D18ED53F0002C82F2 /* WSGlobalManager.m in Sources */,
+				164D5C6218ED7478002C82F2 /* WSLoginView.m in Sources */,
 				16AB7ADC18ECF23B001A208B /* WSLoginWrapper.m in Sources */,
 				16C473A118EAD8F100370E73 /* QiniuResumableUploader.m in Sources */,
 				16C8328718ED0DD3002788AE /* ParseForQuestion.m in Sources */,
@@ -771,6 +790,7 @@
 				16BDB62018E91E230019DF4D /* WSRootViewController.m in Sources */,
 				164D5C5D18ED692A002C82F2 /* RECommonFunctions.m in Sources */,
 				16BDB61518E912EF0019DF4D /* WSHotViewController.m in Sources */,
+				164D5C6818ED7A30002C82F2 /* ZLUserDefalutHelper.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

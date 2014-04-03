@@ -18,4 +18,7 @@
 //qq
 #define kQQ_AppId @"101052625"
 #define kQQ_AppKey @"7250e4ddb09dff7743f2afd8295da314"
+
+//shareSdk APPKey
+#define kShareSDK_AppKey @"18045a38895b"
 #endif

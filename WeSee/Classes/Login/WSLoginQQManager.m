@@ -79,4 +79,9 @@
         _completionBlock(nil,ThirdpartyLoginQQStatus_NotNetwork,[[NSError alloc] init]);
     }
 }
+
+- (void)getUserInfoResponse:(APIResponse *)response
+{
+    NSLog(@"...");
+}
 @end
