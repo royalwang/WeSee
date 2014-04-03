@@ -10,7 +10,9 @@
 
 @interface WSBaseViewController : UIViewController
 
-//导航条左边按钮点击事件，子类可重载
+/**
+ *  导航条左边按钮点击事件，子类可重载
+ */
 - (void)backButtonClicked;
 
 @end

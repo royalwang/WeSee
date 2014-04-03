@@ -10,5 +10,8 @@
 
 @interface WSBaseNavigationController : UINavigationController
 
+/**
+ *  设置基类navigationController导航条样式
+ */
 - (void)setStyle;
 @end

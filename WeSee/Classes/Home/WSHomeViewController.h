@@ -9,6 +9,7 @@
 #import "WSBaseViewController.h"
 
 @interface WSHomeViewController : WSBaseViewController
+
 @property (weak, nonatomic) IBOutlet UIButton *loginBtn;
 
 - (IBAction)loginButtonClicked:(UIButton *)sender;

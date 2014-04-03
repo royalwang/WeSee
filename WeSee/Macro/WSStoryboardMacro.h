@@ -9,6 +9,9 @@
 #ifndef WeSee_WSStoryboardMacro_h
 #define WeSee_WSStoryboardMacro_h
 
+/**
+ *  根据storyboard名字返回UIStoryboard对象
+ */
 #define WSStoryboard(storyboardName) [UIStoryboard storyboardWithName:storyboardName bundle:nil]
 
 #define kWS_Storyboard_Home @"WSHome"

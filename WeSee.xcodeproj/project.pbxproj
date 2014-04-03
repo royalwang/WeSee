@@ -58,7 +58,6 @@
 		16C4733518EAAA2F00370E73 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16C4733418EAAA2F00370E73 /* Security.framework */; };
 		16C4733718EAAA3900370E73 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16C4733618EAAA3900370E73 /* StoreKit.framework */; };
 		16C4733918EAAA4900370E73 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16C4733818EAAA4900370E73 /* SystemConfiguration.framework */; };
-		16C4733D18EAB74100370E73 /* ParseForQuestion.m in Sources */ = {isa = PBXBuildFile; fileRef = 16C4733C18EAB74100370E73 /* ParseForQuestion.m */; };
 		16C4739518EAD8F100370E73 /* AFHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 16C4737418EAD8F100370E73 /* AFHTTPRequestOperation.m */; };
 		16C4739618EAD8F100370E73 /* AFHTTPRequestOperationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 16C4737618EAD8F100370E73 /* AFHTTPRequestOperationManager.m */; };
 		16C4739718EAD8F100370E73 /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 16C4737818EAD8F100370E73 /* AFHTTPSessionManager.m */; };
@@ -74,6 +73,8 @@
 		16C473A118EAD8F100370E73 /* QiniuResumableUploader.m in Sources */ = {isa = PBXBuildFile; fileRef = 16C4738E18EAD8F100370E73 /* QiniuResumableUploader.m */; };
 		16C473A218EAD8F100370E73 /* QiniuSimpleUploader.m in Sources */ = {isa = PBXBuildFile; fileRef = 16C4739118EAD8F100370E73 /* QiniuSimpleUploader.m */; };
 		16C473A318EAD8F100370E73 /* QiniuUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 16C4739418EAD8F100370E73 /* QiniuUtils.m */; };
+		16C8328418ED0D51002788AE /* ZLParseHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 16C8328318ED0D51002788AE /* ZLParseHelper.m */; };
+		16C8328718ED0DD3002788AE /* ParseForQuestion.m in Sources */ = {isa = PBXBuildFile; fileRef = 16C8328618ED0DD3002788AE /* ParseForQuestion.m */; };
 		2A50363444434CC8929A0D32 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 20397C2490C649E79C45EB11 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -154,8 +155,6 @@
 		16C4733418EAAA2F00370E73 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		16C4733618EAAA3900370E73 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
 		16C4733818EAAA4900370E73 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
-		16C4733B18EAB74100370E73 /* ParseForQuestion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ParseForQuestion.h; sourceTree = "<group>"; };
-		16C4733C18EAB74100370E73 /* ParseForQuestion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ParseForQuestion.m; sourceTree = "<group>"; };
 		16C4737318EAD8F100370E73 /* AFHTTPRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperation.h; sourceTree = "<group>"; };
 		16C4737418EAD8F100370E73 /* AFHTTPRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPRequestOperation.m; sourceTree = "<group>"; };
 		16C4737518EAD8F100370E73 /* AFHTTPRequestOperationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperationManager.h; sourceTree = "<group>"; };
@@ -191,6 +190,10 @@
 		16C4739318EAD8F100370E73 /* QiniuUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QiniuUtils.h; sourceTree = "<group>"; };
 		16C4739418EAD8F100370E73 /* QiniuUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QiniuUtils.m; sourceTree = "<group>"; };
 		16C473A418EADA1700370E73 /* ThirdPartyConfigMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ThirdPartyConfigMacro.h; sourceTree = "<group>"; };
+		16C8328218ED0D51002788AE /* ZLParseHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLParseHelper.h; sourceTree = "<group>"; };
+		16C8328318ED0D51002788AE /* ZLParseHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLParseHelper.m; sourceTree = "<group>"; };
+		16C8328518ED0DD3002788AE /* ParseForQuestion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ParseForQuestion.h; sourceTree = "<group>"; };
+		16C8328618ED0DD3002788AE /* ParseForQuestion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ParseForQuestion.m; sourceTree = "<group>"; };
 		20397C2490C649E79C45EB11 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		634AA486C7794350AEA934A6 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -259,11 +262,11 @@
 		16AB7AD518ECF23B001A208B /* Login */ = {
 			isa = PBXGroup;
 			children = (
+				16AB7AD918ECF23B001A208B /* WSLoginWrapper.h */,
+				16AB7ADA18ECF23B001A208B /* WSLoginWrapper.m */,
 				16AB7AD618ECF23B001A208B /* WSLoginQQManager.h */,
 				16AB7AD718ECF23B001A208B /* WSLoginQQManager.m */,
 				16AB7AD818ECF23B001A208B /* WSLoginTypedef.h */,
-				16AB7AD918ECF23B001A208B /* WSLoginWrapper.h */,
-				16AB7ADA18ECF23B001A208B /* WSLoginWrapper.m */,
 			);
 			path = Login;
 			sourceTree = "<group>";
@@ -379,6 +382,10 @@
 			isa = PBXGroup;
 			children = (
 				16BDB5F018E902030019DF4D /* File */,
+				16C8328518ED0DD3002788AE /* ParseForQuestion.h */,
+				16C8328618ED0DD3002788AE /* ParseForQuestion.m */,
+				16C8328218ED0D51002788AE /* ZLParseHelper.h */,
+				16C8328318ED0D51002788AE /* ZLParseHelper.m */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -413,7 +420,6 @@
 			isa = PBXGroup;
 			children = (
 				16C4737118EAD8F100370E73 /* QiniuSDK */,
-				16C4733A18EAB74100370E73 /* parseForQuestion */,
 				16BDB5F818E902030019DF4D /* File */,
 			);
 			path = Vendors;
@@ -498,15 +504,6 @@
 				16BDB61F18E91E230019DF4D /* WSRootViewController.m */,
 			);
 			path = Root;
-			sourceTree = "<group>";
-		};
-		16C4733A18EAB74100370E73 /* parseForQuestion */ = {
-			isa = PBXGroup;
-			children = (
-				16C4733B18EAB74100370E73 /* ParseForQuestion.h */,
-				16C4733C18EAB74100370E73 /* ParseForQuestion.m */,
-			);
-			path = parseForQuestion;
 			sourceTree = "<group>";
 		};
 		16C4737118EAD8F100370E73 /* QiniuSDK */ = {
@@ -718,15 +715,16 @@
 				16C4739818EAD8F100370E73 /* AFNetworkReachabilityManager.m in Sources */,
 				16AB7ADC18ECF23B001A208B /* WSLoginWrapper.m in Sources */,
 				16C473A118EAD8F100370E73 /* QiniuResumableUploader.m in Sources */,
+				16C8328718ED0DD3002788AE /* ParseForQuestion.m in Sources */,
 				16C4739C18EAD8F100370E73 /* AFURLResponseSerialization.m in Sources */,
 				16C4739B18EAD8F100370E73 /* AFURLRequestSerialization.m in Sources */,
 				16C4739A18EAD8F100370E73 /* AFURLConnectionOperation.m in Sources */,
 				16C4739618EAD8F100370E73 /* AFHTTPRequestOperationManager.m in Sources */,
 				16BDB61D18E91A850019DF4D /* WSBaseNavigationController.m in Sources */,
 				16C473A218EAD8F100370E73 /* QiniuSimpleUploader.m in Sources */,
-				16C4733D18EAB74100370E73 /* ParseForQuestion.m in Sources */,
 				16C4739918EAD8F100370E73 /* AFSecurityPolicy.m in Sources */,
 				16BDB61818E913010019DF4D /* WSMeViewController.m in Sources */,
+				16C8328418ED0D51002788AE /* ZLParseHelper.m in Sources */,
 				16BDB62018E91E230019DF4D /* WSRootViewController.m in Sources */,
 				16BDB61518E912EF0019DF4D /* WSHotViewController.m in Sources */,
 			);

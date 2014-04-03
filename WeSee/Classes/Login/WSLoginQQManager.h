@@ -11,7 +11,17 @@
 
 @interface WSLoginQQManager : NSObject
 
+/**
+ *  @brief qq登陆单例
+ *
+ *  @return self
+ */
 + (instancetype)sharedLoginQQManager;
 
+/**
+ *  @brief qq登录实例方法
+ *
+ *  @param completion 登录完成block
+ */
 - (void)loginWithCompletion:(LoginCompletionBlock)completion;
 @end
