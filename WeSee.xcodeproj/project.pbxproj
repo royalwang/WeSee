@@ -9,6 +9,10 @@
 /* Begin PBXBuildFile section */
 		160D915318E98B0100198E1F /* WSMessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 160D915218E98B0100198E1F /* WSMessageViewController.m */; };
 		160D915518E98B2000198E1F /* WSMessageStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 160D915418E98B2000198E1F /* WSMessageStoryboard.storyboard */; };
+		16AB7AD318ECF211001A208B /* WSHomeStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16AB7AD018ECF211001A208B /* WSHomeStoryboard.storyboard */; };
+		16AB7AD418ECF211001A208B /* WSHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 16AB7AD218ECF211001A208B /* WSHomeViewController.m */; };
+		16AB7ADB18ECF23B001A208B /* WSLoginQQManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 16AB7AD718ECF23B001A208B /* WSLoginQQManager.m */; };
+		16AB7ADC18ECF23B001A208B /* WSLoginWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 16AB7ADA18ECF23B001A208B /* WSLoginWrapper.m */; };
 		16B6F88D18EC083F00609A3D /* TencentOpenApi_IOS_Bundle.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 16B6F88B18EC083F00609A3D /* TencentOpenApi_IOS_Bundle.bundle */; };
 		16B6F88E18EC083F00609A3D /* TencentOpenAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16B6F88C18EC083F00609A3D /* TencentOpenAPI.framework */; };
 		16B6F89018EC087300609A3D /* libiconv.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 16B6F88F18EC087300609A3D /* libiconv.dylib */; };
@@ -16,8 +20,6 @@
 		16B6F89418EC08A200609A3D /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16B6F89318EC08A200609A3D /* CoreTelephony.framework */; };
 		16B6F89618EC08B200609A3D /* libstdc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 16B6F89518EC08B200609A3D /* libstdc++.dylib */; };
 		16B6F89718EC095800609A3D /* TencentOpenApi_IOS_Bundle.bundle in Frameworks */ = {isa = PBXBuildFile; fileRef = 16B6F88B18EC083F00609A3D /* TencentOpenApi_IOS_Bundle.bundle */; };
-		16B6F89F18EC24A900609A3D /* WSLoginQQManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 16B6F89E18EC24A900609A3D /* WSLoginQQManager.m */; };
-		16B6F8A218EC295000609A3D /* WSLoginWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 16B6F8A118EC295000609A3D /* WSLoginWrapper.m */; };
 		16BDB5BE18E8FACB0019DF4D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16BDB5BD18E8FACB0019DF4D /* Foundation.framework */; };
 		16BDB5C018E8FACB0019DF4D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16BDB5BF18E8FACB0019DF4D /* CoreGraphics.framework */; };
 		16BDB5C218E8FACB0019DF4D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16BDB5C118E8FACB0019DF4D /* UIKit.framework */; };
@@ -38,8 +40,6 @@
 		16BDB5FE18E902030019DF4D /* File in Resources */ = {isa = PBXBuildFile; fileRef = 16BDB5F618E902030019DF4D /* File */; };
 		16BDB5FF18E902030019DF4D /* File in Resources */ = {isa = PBXBuildFile; fileRef = 16BDB5F818E902030019DF4D /* File */; };
 		16BDB60618E907F10019DF4D /* WSBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 16BDB60518E907F10019DF4D /* WSBaseViewController.m */; };
-		16BDB60D18E908880019DF4D /* WSHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 16BDB60B18E908880019DF4D /* WSHomeViewController.m */; };
-		16BDB61018E912A50019DF4D /* WSHomeStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16BDB60F18E912A50019DF4D /* WSHomeStoryboard.storyboard */; };
 		16BDB61218E912DA0019DF4D /* WSHotStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16BDB61118E912DA0019DF4D /* WSHotStoryboard.storyboard */; };
 		16BDB61518E912EF0019DF4D /* WSHotViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 16BDB61418E912EF0019DF4D /* WSHotViewController.m */; };
 		16BDB61818E913010019DF4D /* WSMeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 16BDB61718E913010019DF4D /* WSMeViewController.m */; };
@@ -91,17 +91,20 @@
 		160D915118E98B0100198E1F /* WSMessageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSMessageViewController.h; sourceTree = "<group>"; };
 		160D915218E98B0100198E1F /* WSMessageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSMessageViewController.m; sourceTree = "<group>"; };
 		160D915418E98B2000198E1F /* WSMessageStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = WSMessageStoryboard.storyboard; sourceTree = "<group>"; };
+		16AB7AD018ECF211001A208B /* WSHomeStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = WSHomeStoryboard.storyboard; sourceTree = "<group>"; };
+		16AB7AD118ECF211001A208B /* WSHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSHomeViewController.h; sourceTree = "<group>"; };
+		16AB7AD218ECF211001A208B /* WSHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSHomeViewController.m; sourceTree = "<group>"; };
+		16AB7AD618ECF23B001A208B /* WSLoginQQManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSLoginQQManager.h; sourceTree = "<group>"; };
+		16AB7AD718ECF23B001A208B /* WSLoginQQManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSLoginQQManager.m; sourceTree = "<group>"; };
+		16AB7AD818ECF23B001A208B /* WSLoginTypedef.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSLoginTypedef.h; sourceTree = "<group>"; };
+		16AB7AD918ECF23B001A208B /* WSLoginWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSLoginWrapper.h; sourceTree = "<group>"; };
+		16AB7ADA18ECF23B001A208B /* WSLoginWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSLoginWrapper.m; sourceTree = "<group>"; };
 		16B6F88B18EC083F00609A3D /* TencentOpenApi_IOS_Bundle.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = TencentOpenApi_IOS_Bundle.bundle; sourceTree = "<group>"; };
 		16B6F88C18EC083F00609A3D /* TencentOpenAPI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TencentOpenAPI.framework; sourceTree = "<group>"; };
 		16B6F88F18EC087300609A3D /* libiconv.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libiconv.dylib; path = usr/lib/libiconv.dylib; sourceTree = SDKROOT; };
 		16B6F89118EC089500609A3D /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
 		16B6F89318EC08A200609A3D /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
 		16B6F89518EC08B200609A3D /* libstdc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libstdc++.dylib"; path = "usr/lib/libstdc++.dylib"; sourceTree = SDKROOT; };
-		16B6F89D18EC24A900609A3D /* WSLoginQQManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSLoginQQManager.h; sourceTree = "<group>"; };
-		16B6F89E18EC24A900609A3D /* WSLoginQQManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSLoginQQManager.m; sourceTree = "<group>"; };
-		16B6F8A018EC295000609A3D /* WSLoginWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSLoginWrapper.h; sourceTree = "<group>"; };
-		16B6F8A118EC295000609A3D /* WSLoginWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSLoginWrapper.m; sourceTree = "<group>"; };
-		16B6F8A318EC29EA00609A3D /* WSLoginTypedef.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WSLoginTypedef.h; sourceTree = "<group>"; };
 		16BDB5BA18E8FACB0019DF4D /* WeSee.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeSee.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		16BDB5BD18E8FACB0019DF4D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		16BDB5BF18E8FACB0019DF4D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -127,9 +130,6 @@
 		16BDB5F818E902030019DF4D /* File */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = File; sourceTree = "<group>"; };
 		16BDB60418E907F10019DF4D /* WSBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSBaseViewController.h; sourceTree = "<group>"; };
 		16BDB60518E907F10019DF4D /* WSBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSBaseViewController.m; sourceTree = "<group>"; };
-		16BDB60A18E908880019DF4D /* WSHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSHomeViewController.h; sourceTree = "<group>"; };
-		16BDB60B18E908880019DF4D /* WSHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSHomeViewController.m; sourceTree = "<group>"; };
-		16BDB60F18E912A50019DF4D /* WSHomeStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = WSHomeStoryboard.storyboard; sourceTree = "<group>"; };
 		16BDB61118E912DA0019DF4D /* WSHotStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = WSHotStoryboard.storyboard; sourceTree = "<group>"; };
 		16BDB61318E912EF0019DF4D /* WSHotViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSHotViewController.h; sourceTree = "<group>"; };
 		16BDB61418E912EF0019DF4D /* WSHotViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSHotViewController.m; sourceTree = "<group>"; };
@@ -246,16 +246,26 @@
 			path = Message;
 			sourceTree = "<group>";
 		};
-		16B6F89C18EC248900609A3D /* LoginManager */ = {
+		16AB7ACF18ECF211001A208B /* Home */ = {
 			isa = PBXGroup;
 			children = (
-				16B6F8A018EC295000609A3D /* WSLoginWrapper.h */,
-				16B6F8A118EC295000609A3D /* WSLoginWrapper.m */,
-				16B6F89D18EC24A900609A3D /* WSLoginQQManager.h */,
-				16B6F89E18EC24A900609A3D /* WSLoginQQManager.m */,
-				16B6F8A318EC29EA00609A3D /* WSLoginTypedef.h */,
+				16AB7AD018ECF211001A208B /* WSHomeStoryboard.storyboard */,
+				16AB7AD118ECF211001A208B /* WSHomeViewController.h */,
+				16AB7AD218ECF211001A208B /* WSHomeViewController.m */,
 			);
-			path = LoginManager;
+			path = Home;
+			sourceTree = "<group>";
+		};
+		16AB7AD518ECF23B001A208B /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				16AB7AD618ECF23B001A208B /* WSLoginQQManager.h */,
+				16AB7AD718ECF23B001A208B /* WSLoginQQManager.m */,
+				16AB7AD818ECF23B001A208B /* WSLoginTypedef.h */,
+				16AB7AD918ECF23B001A208B /* WSLoginWrapper.h */,
+				16AB7ADA18ECF23B001A208B /* WSLoginWrapper.m */,
+			);
+			path = Login;
 			sourceTree = "<group>";
 		};
 		16BDB5B118E8FACB0019DF4D = {
@@ -402,7 +412,6 @@
 		16BDB5F718E902030019DF4D /* Vendors */ = {
 			isa = PBXGroup;
 			children = (
-				16B6F89C18EC248900609A3D /* LoginManager */,
 				16C4737118EAD8F100370E73 /* QiniuSDK */,
 				16C4733A18EAB74100370E73 /* parseForQuestion */,
 				16BDB5F818E902030019DF4D /* File */,
@@ -413,11 +422,12 @@
 		16BDB60018E907220019DF4D /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				16AB7AD518ECF23B001A208B /* Login */,
+				16AB7ACF18ECF211001A208B /* Home */,
 				160D915018E98AE300198E1F /* Message */,
 				16BDB62B18E94D180019DF4D /* Root */,
 				16BDB62518E9439E0019DF4D /* Left */,
 				16BDB60718E9085F0019DF4D /* Hot */,
-				16BDB60818E9085F0019DF4D /* Home */,
 				16BDB60918E9085F0019DF4D /* Me */,
 			);
 			path = Classes;
@@ -459,17 +469,6 @@
 				16BDB61118E912DA0019DF4D /* WSHotStoryboard.storyboard */,
 			);
 			path = Hot;
-			sourceTree = "<group>";
-		};
-		16BDB60818E9085F0019DF4D /* Home */ = {
-			isa = PBXGroup;
-			children = (
-				16BDB60A18E908880019DF4D /* WSHomeViewController.h */,
-				16BDB60B18E908880019DF4D /* WSHomeViewController.m */,
-				16BDB60F18E912A50019DF4D /* WSHomeStoryboard.storyboard */,
-			);
-			name = Home;
-			path = Main;
 			sourceTree = "<group>";
 		};
 		16BDB60918E9085F0019DF4D /* Me */ = {
@@ -649,7 +648,7 @@
 				16BDB5D018E8FACB0019DF4D /* Images.xcassets in Resources */,
 				16BDB5F918E902030019DF4D /* File in Resources */,
 				16BDB5FB18E902030019DF4D /* File in Resources */,
-				16BDB61018E912A50019DF4D /* WSHomeStoryboard.storyboard in Resources */,
+				16AB7AD318ECF211001A208B /* WSHomeStoryboard.storyboard in Resources */,
 				16BDB5FF18E902030019DF4D /* File in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -705,9 +704,10 @@
 				16C4739518EAD8F100370E73 /* AFHTTPRequestOperation.m in Sources */,
 				160D915318E98B0100198E1F /* WSMessageViewController.m in Sources */,
 				16BDB62A18E943D70019DF4D /* WSLeftViewController.m in Sources */,
-				16B6F89F18EC24A900609A3D /* WSLoginQQManager.m in Sources */,
 				16BDB5CE18E8FACB0019DF4D /* AppDelegate.m in Sources */,
 				16C4739E18EAD8F100370E73 /* QiniuBlkputRet.m in Sources */,
+				16AB7ADB18ECF23B001A208B /* WSLoginQQManager.m in Sources */,
+				16AB7AD418ECF211001A208B /* WSHomeViewController.m in Sources */,
 				16C4739F18EAD8F100370E73 /* QiniuHttpClient.m in Sources */,
 				16C473A318EAD8F100370E73 /* QiniuUtils.m in Sources */,
 				16BDB60618E907F10019DF4D /* WSBaseViewController.m in Sources */,
@@ -716,8 +716,7 @@
 				16C4739718EAD8F100370E73 /* AFHTTPSessionManager.m in Sources */,
 				16BDB5CA18E8FACB0019DF4D /* main.m in Sources */,
 				16C4739818EAD8F100370E73 /* AFNetworkReachabilityManager.m in Sources */,
-				16BDB60D18E908880019DF4D /* WSHomeViewController.m in Sources */,
-				16B6F8A218EC295000609A3D /* WSLoginWrapper.m in Sources */,
+				16AB7ADC18ECF23B001A208B /* WSLoginWrapper.m in Sources */,
 				16C473A118EAD8F100370E73 /* QiniuResumableUploader.m in Sources */,
 				16C4739C18EAD8F100370E73 /* AFURLResponseSerialization.m in Sources */,
 				16C4739B18EAD8F100370E73 /* AFURLRequestSerialization.m in Sources */,
