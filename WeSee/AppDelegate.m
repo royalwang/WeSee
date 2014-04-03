@@ -15,9 +15,10 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-//    [Parse setApplicationId:@"dqd1Itdo3f81j1KJ0xMbtkTTcUHUVAwbhpVIbOdq"
-//                  clientKey:@"fugHeeJNROt9tsqMLHEhVpb1v60K8RazxC6vD5Io"];
-//    [PFAnalytics trackAppOpenedWithLaunchOptions:launchOptions];
+    //Parse 配置
+    [Parse setApplicationId:kParse_ApplicationId
+                  clientKey:kParse_ClientKey];
+    [PFAnalytics trackAppOpenedWithLaunchOptions:launchOptions];
     
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
