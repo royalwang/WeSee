@@ -7,7 +7,7 @@
 //
 
 #import "WSLeftViewController.h"
-#import <RESideMenu.h>
+#import "RESideMenu.h"
 
 @interface WSLeftViewController ()<UITableViewDataSource,UITableViewDelegate,RESideMenuDelegate>
 

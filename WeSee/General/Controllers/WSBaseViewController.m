@@ -7,7 +7,7 @@
 //
 
 #import "WSBaseViewController.h"
-#import <UIViewController+RESideMenu.h>
+#import "UIViewController+RESideMenu.h"
 
 @interface WSBaseViewController ()
 

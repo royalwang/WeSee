@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "6DB662E24068408F819E6B6B"
+               BlueprintIdentifier = "095B4D281AEF4EA5BAEADE6A"
                BuildableName = "libPods-CRGradientNavigationBar.a"
                BlueprintName = "Pods-CRGradientNavigationBar"
                ReferencedContainer = "container:Pods.xcodeproj">

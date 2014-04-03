@@ -9,6 +9,12 @@
 /* Begin PBXBuildFile section */
 		160D915318E98B0100198E1F /* WSMessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 160D915218E98B0100198E1F /* WSMessageViewController.m */; };
 		160D915518E98B2000198E1F /* WSMessageStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 160D915418E98B2000198E1F /* WSMessageStoryboard.storyboard */; };
+		164D5C0A18ED431E002C82F2 /* WSParseDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 164D5C0918ED431E002C82F2 /* WSParseDataManager.m */; };
+		164D5C0D18ED53F0002C82F2 /* WSGlobalManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 164D5C0C18ED53F0002C82F2 /* WSGlobalManager.m */; };
+		164D5C1018ED5410002C82F2 /* WSUserModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 164D5C0F18ED5410002C82F2 /* WSUserModel.m */; };
+		164D5C5D18ED692A002C82F2 /* RECommonFunctions.m in Sources */ = {isa = PBXBuildFile; fileRef = 164D5C5818ED692A002C82F2 /* RECommonFunctions.m */; };
+		164D5C5E18ED692A002C82F2 /* RESideMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 164D5C5A18ED692A002C82F2 /* RESideMenu.m */; };
+		164D5C5F18ED692A002C82F2 /* UIViewController+RESideMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 164D5C5C18ED692A002C82F2 /* UIViewController+RESideMenu.m */; };
 		16AB7AD318ECF211001A208B /* WSHomeStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16AB7AD018ECF211001A208B /* WSHomeStoryboard.storyboard */; };
 		16AB7AD418ECF211001A208B /* WSHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 16AB7AD218ECF211001A208B /* WSHomeViewController.m */; };
 		16AB7ADB18ECF23B001A208B /* WSLoginQQManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 16AB7AD718ECF23B001A208B /* WSLoginQQManager.m */; };
@@ -92,6 +98,18 @@
 		160D915118E98B0100198E1F /* WSMessageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSMessageViewController.h; sourceTree = "<group>"; };
 		160D915218E98B0100198E1F /* WSMessageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSMessageViewController.m; sourceTree = "<group>"; };
 		160D915418E98B2000198E1F /* WSMessageStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = WSMessageStoryboard.storyboard; sourceTree = "<group>"; };
+		164D5C0818ED431E002C82F2 /* WSParseDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSParseDataManager.h; sourceTree = "<group>"; };
+		164D5C0918ED431E002C82F2 /* WSParseDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSParseDataManager.m; sourceTree = "<group>"; };
+		164D5C0B18ED53F0002C82F2 /* WSGlobalManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSGlobalManager.h; sourceTree = "<group>"; };
+		164D5C0C18ED53F0002C82F2 /* WSGlobalManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSGlobalManager.m; sourceTree = "<group>"; };
+		164D5C0E18ED5410002C82F2 /* WSUserModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSUserModel.h; sourceTree = "<group>"; };
+		164D5C0F18ED5410002C82F2 /* WSUserModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSUserModel.m; sourceTree = "<group>"; };
+		164D5C5718ED692A002C82F2 /* RECommonFunctions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RECommonFunctions.h; sourceTree = "<group>"; };
+		164D5C5818ED692A002C82F2 /* RECommonFunctions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RECommonFunctions.m; sourceTree = "<group>"; };
+		164D5C5918ED692A002C82F2 /* RESideMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RESideMenu.h; sourceTree = "<group>"; };
+		164D5C5A18ED692A002C82F2 /* RESideMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RESideMenu.m; sourceTree = "<group>"; };
+		164D5C5B18ED692A002C82F2 /* UIViewController+RESideMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+RESideMenu.h"; sourceTree = "<group>"; };
+		164D5C5C18ED692A002C82F2 /* UIViewController+RESideMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+RESideMenu.m"; sourceTree = "<group>"; };
 		16AB7AD018ECF211001A208B /* WSHomeStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = WSHomeStoryboard.storyboard; sourceTree = "<group>"; };
 		16AB7AD118ECF211001A208B /* WSHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSHomeViewController.h; sourceTree = "<group>"; };
 		16AB7AD218ECF211001A208B /* WSHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSHomeViewController.m; sourceTree = "<group>"; };
@@ -249,6 +267,19 @@
 			path = Message;
 			sourceTree = "<group>";
 		};
+		164D5C5618ED692A002C82F2 /* RESideMenu */ = {
+			isa = PBXGroup;
+			children = (
+				164D5C5718ED692A002C82F2 /* RECommonFunctions.h */,
+				164D5C5818ED692A002C82F2 /* RECommonFunctions.m */,
+				164D5C5918ED692A002C82F2 /* RESideMenu.h */,
+				164D5C5A18ED692A002C82F2 /* RESideMenu.m */,
+				164D5C5B18ED692A002C82F2 /* UIViewController+RESideMenu.h */,
+				164D5C5C18ED692A002C82F2 /* UIViewController+RESideMenu.m */,
+			);
+			path = RESideMenu;
+			sourceTree = "<group>";
+		};
 		16AB7ACF18ECF211001A208B /* Home */ = {
 			isa = PBXGroup;
 			children = (
@@ -386,6 +417,10 @@
 				16C8328618ED0DD3002788AE /* ParseForQuestion.m */,
 				16C8328218ED0D51002788AE /* ZLParseHelper.h */,
 				16C8328318ED0D51002788AE /* ZLParseHelper.m */,
+				164D5C0818ED431E002C82F2 /* WSParseDataManager.h */,
+				164D5C0918ED431E002C82F2 /* WSParseDataManager.m */,
+				164D5C0B18ED53F0002C82F2 /* WSGlobalManager.h */,
+				164D5C0C18ED53F0002C82F2 /* WSGlobalManager.m */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -404,6 +439,8 @@
 			isa = PBXGroup;
 			children = (
 				16BDB5F418E902030019DF4D /* File */,
+				164D5C0E18ED5410002C82F2 /* WSUserModel.h */,
+				164D5C0F18ED5410002C82F2 /* WSUserModel.m */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -419,6 +456,7 @@
 		16BDB5F718E902030019DF4D /* Vendors */ = {
 			isa = PBXGroup;
 			children = (
+				164D5C5618ED692A002C82F2 /* RESideMenu */,
 				16C4737118EAD8F100370E73 /* QiniuSDK */,
 				16BDB5F818E902030019DF4D /* File */,
 			);
@@ -700,6 +738,7 @@
 			files = (
 				16C4739518EAD8F100370E73 /* AFHTTPRequestOperation.m in Sources */,
 				160D915318E98B0100198E1F /* WSMessageViewController.m in Sources */,
+				164D5C1018ED5410002C82F2 /* WSUserModel.m in Sources */,
 				16BDB62A18E943D70019DF4D /* WSLeftViewController.m in Sources */,
 				16BDB5CE18E8FACB0019DF4D /* AppDelegate.m in Sources */,
 				16C4739E18EAD8F100370E73 /* QiniuBlkputRet.m in Sources */,
@@ -709,10 +748,12 @@
 				16C473A318EAD8F100370E73 /* QiniuUtils.m in Sources */,
 				16BDB60618E907F10019DF4D /* WSBaseViewController.m in Sources */,
 				16C4739D18EAD8F100370E73 /* AFURLSessionManager.m in Sources */,
+				164D5C5F18ED692A002C82F2 /* UIViewController+RESideMenu.m in Sources */,
 				16C473A018EAD8F100370E73 /* QiniuResumableClient.m in Sources */,
 				16C4739718EAD8F100370E73 /* AFHTTPSessionManager.m in Sources */,
 				16BDB5CA18E8FACB0019DF4D /* main.m in Sources */,
 				16C4739818EAD8F100370E73 /* AFNetworkReachabilityManager.m in Sources */,
+				164D5C0D18ED53F0002C82F2 /* WSGlobalManager.m in Sources */,
 				16AB7ADC18ECF23B001A208B /* WSLoginWrapper.m in Sources */,
 				16C473A118EAD8F100370E73 /* QiniuResumableUploader.m in Sources */,
 				16C8328718ED0DD3002788AE /* ParseForQuestion.m in Sources */,
@@ -721,11 +762,14 @@
 				16C4739A18EAD8F100370E73 /* AFURLConnectionOperation.m in Sources */,
 				16C4739618EAD8F100370E73 /* AFHTTPRequestOperationManager.m in Sources */,
 				16BDB61D18E91A850019DF4D /* WSBaseNavigationController.m in Sources */,
+				164D5C0A18ED431E002C82F2 /* WSParseDataManager.m in Sources */,
+				164D5C5E18ED692A002C82F2 /* RESideMenu.m in Sources */,
 				16C473A218EAD8F100370E73 /* QiniuSimpleUploader.m in Sources */,
 				16C4739918EAD8F100370E73 /* AFSecurityPolicy.m in Sources */,
 				16BDB61818E913010019DF4D /* WSMeViewController.m in Sources */,
 				16C8328418ED0D51002788AE /* ZLParseHelper.m in Sources */,
 				16BDB62018E91E230019DF4D /* WSRootViewController.m in Sources */,
+				164D5C5D18ED692A002C82F2 /* RECommonFunctions.m in Sources */,
 				16BDB61518E912EF0019DF4D /* WSHotViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -852,6 +896,7 @@
 				GCC_PREFIX_HEADER = "WeSee/WeSee-Prefix.pch";
 				INFOPLIST_FILE = "WeSee/WeSee-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = NO;
 				OTHER_LDFLAGS = (
 					"-framework",
 					QuartzCore,
@@ -861,6 +906,7 @@
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "A5E1387B-6E60-419E-AF42-4819D6974D65";
+				VALID_ARCHS = "armv7 armv7s";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -879,6 +925,7 @@
 				GCC_PREFIX_HEADER = "WeSee/WeSee-Prefix.pch";
 				INFOPLIST_FILE = "WeSee/WeSee-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = NO;
 				OTHER_LDFLAGS = (
 					"-framework",
 					QuartzCore,
@@ -888,6 +935,7 @@
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "A5E1387B-6E60-419E-AF42-4819D6974D65";
+				VALID_ARCHS = "armv7 armv7s";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
