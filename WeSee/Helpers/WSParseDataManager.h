@@ -14,6 +14,6 @@
 
 - (BOOL)isLogin;
 
-//- (void)loginWithModel:()username Completion:(void (^)(BOOL success,NSError *error))completion;
+- (void)loginWithModel:(WSUserModel*)model Completion:(void (^)(BOOL success,NSError *error))completion;
 
 @end

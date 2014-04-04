@@ -17,5 +17,7 @@
 @property (nonatomic, strong) NSString *friendsNum;
 @property (nonatomic, strong) NSString *attentionNum;
 @property (nonatomic, strong) NSString *fansNum;
+@property (nonatomic, strong) NSString *isLogin;
+@property (nonatomic, strong) NSString *sex;
 
 @end

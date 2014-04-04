@@ -49,7 +49,6 @@
             _loginView = [[[NSBundle mainBundle] loadNibNamed:@"WSLoginView" owner:self options:nil] objectAtIndex:0];
         }
         [window addSubview:_loginView];
-        [ZLUserDefalutHelper setUserDefaultValue:[NSDictionary dictionary] forKey:kUserInfo];
     }
 }
 
@@ -61,8 +60,8 @@
 
 - (BOOL)checkUserIsLogin
 {
-//    NSDictionary *userInfo = [ZLUserDefalutHelper userDefaultValueForKey:kUserInfo];
-//    if (userInfo) {
+//    NSString *isLogin =  [ZLUserDefalutHelper userDefaultValueForKey:kUserIsLogin];
+//    if (isLogin && [isLogin boolValue]) {
 //        return YES;
 //    }
     return NO;

@@ -10,4 +10,11 @@
 
 @implementation WSUserModel
 
+- (id)init
+{
+    if (self = [super init]) {
+        self.isLogin = @"0";
+    }
+    return self;
+}
 @end

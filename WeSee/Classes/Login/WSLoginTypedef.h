@@ -48,6 +48,10 @@ typedef NS_ENUM(NSUInteger, ThirdpartyLoginQQStatus) {
      *  无网络连接
      */
     ThirdpartyLoginQQStatus_NotNetwork,
+    /**
+     *  token已过期
+     */
+    ThirdpartyLoginQQStatus_InvalidToken,
 };
 
 /**
@@ -57,6 +61,6 @@ typedef NS_ENUM(NSUInteger, ThirdpartyLoginQQStatus) {
  *  @param status 状态码
  *  @param error  error
  */
-typedef void(^LoginCompletionBlock)(id obj, NSUInteger status, NSError *error);
+typedef void(^LoginCompletionBlock)(NSString *token, NSUInteger status, NSError *error);
 
 #endif

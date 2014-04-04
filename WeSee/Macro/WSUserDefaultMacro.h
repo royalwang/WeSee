@@ -18,6 +18,7 @@
 #define kUserInfoKey_FriendsNum @"friendsNum"
 #define kUserInfoKey_AttentionNum @"attentionNum"
 #define kUserInfoKey_FansNum @"fansNum"
+#define kUserInfoKey_Sex @"sex"
 #define kUserIsLogin @"isLogin"
 
 #endif

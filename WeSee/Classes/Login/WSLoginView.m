@@ -10,6 +10,7 @@
 #import <TencentOpenAPI/TencentOAuth.h>
 #import <Parse/Parse.h>
 #import "WSLoginWrapper.h"
+#import "WSParseDataManager.h"
 
 @implementation WSLoginView
 
@@ -37,14 +38,23 @@
     if (tag == 101) {
         type = ThirdpartyLoginType_Sina;
     }
-    [WSLoginWrapper wrapperLoginWithType:type completion:^(id obj,NSUInteger status,NSError *error){
+    [WSLoginWrapper wrapperLoginWithType:type completion:^(NSString *token,NSUInteger status,NSError *error){
         if (type == ThirdpartyLoginType_QQ) {
             if (self.superview) {
                 [self removeFromSuperview];
             }
-            TencentOAuth *tencentOAuth = (TencentOAuth*)obj;
-            if (tencentOAuth) {
-                NSLog(@"statusCode:%d,accessToken:%@",status,tencentOAuth.accessToken);
+            if (token && !error) {
+                //将用户信息的用户名和密码值都为token值，用来登陆Parse
+                [WSGlobalManager sharedManager].userInfo.username = token;
+                [WSGlobalManager sharedManager].userInfo.password = token;
+                //登陆parse
+                if (![[WSParseDataManager sharedParseDataManager] isLogin]) {
+                    [[WSParseDataManager sharedParseDataManager] loginWithModel:[WSGlobalManager sharedManager].userInfo Completion:^(BOOL succees,NSError *error){
+                        NSLog(@"hehe");
+                    }];
+                }
+            }else{
+                //处理qq授权错误信息
             }
         }
     }];

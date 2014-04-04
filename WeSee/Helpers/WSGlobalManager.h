@@ -11,4 +11,11 @@
 
 @interface WSGlobalManager : NSObject
 
+@property (nonatomic, strong) WSUserModel *userInfo;
+
++ (instancetype)sharedManager;
+
+- (void)setUserInfoWithDict:(NSDictionary*)dict;
+
+
 @end
