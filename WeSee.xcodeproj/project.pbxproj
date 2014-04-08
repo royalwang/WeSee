@@ -18,6 +18,16 @@
 		164D5C6218ED7478002C82F2 /* WSLoginView.m in Sources */ = {isa = PBXBuildFile; fileRef = 164D5C6118ED7478002C82F2 /* WSLoginView.m */; };
 		164D5C6418ED74C8002C82F2 /* WSLoginView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 164D5C6318ED74C8002C82F2 /* WSLoginView.xib */; };
 		164D5C6818ED7A30002C82F2 /* ZLUserDefalutHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 164D5C6718ED7A30002C82F2 /* ZLUserDefalutHelper.m */; };
+		1672D0B618F3A5720076F90E /* CHANGELOG.md in Resources */ = {isa = PBXBuildFile; fileRef = 1672D0B218F3A5720076F90E /* CHANGELOG.md */; };
+		1672D0B718F3A5720076F90E /* JSONKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 1672D0B418F3A5720076F90E /* JSONKit.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		1672D0B818F3A5720076F90E /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 1672D0B518F3A5720076F90E /* README.md */; };
+		1672D0BF18F3CB620076F90E /* 100.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1672D0BE18F3CB620076F90E /* 100.jpg */; };
+		1672D0C118F3CBFF0076F90E /* 2.html in Resources */ = {isa = PBXBuildFile; fileRef = 1672D0C018F3CBFF0076F90E /* 2.html */; };
+		1672D0C318F3D53E0076F90E /* 111.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 1672D0C218F3D4800076F90E /* 111.mp4 */; };
+		16A89DD518F39D7500B398A3 /* QiniuPutPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = 16A89DD418F39D7500B398A3 /* QiniuPutPolicy.m */; };
+		16A89DDF18F39E6300B398A3 /* GTMBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = 16A89DD818F39E6300B398A3 /* GTMBase64.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		16AB585C18EEA29E003695EC /* WSUploadVideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 16AB585B18EEA29E003695EC /* WSUploadVideoViewController.m */; };
+		16AB585E18EEA2F2003695EC /* WSUploadVideoStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16AB585D18EEA2F2003695EC /* WSUploadVideoStoryboard.storyboard */; };
 		16AB7AD318ECF211001A208B /* WSHomeStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16AB7AD018ECF211001A208B /* WSHomeStoryboard.storyboard */; };
 		16AB7AD418ECF211001A208B /* WSHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 16AB7AD218ECF211001A208B /* WSHomeViewController.m */; };
 		16AB7ADB18ECF23B001A208B /* WSLoginQQManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 16AB7AD718ECF23B001A208B /* WSLoginQQManager.m */; };
@@ -120,6 +130,21 @@
 		164D5C6618ED7A30002C82F2 /* ZLUserDefalutHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLUserDefalutHelper.h; sourceTree = "<group>"; };
 		164D5C6718ED7A30002C82F2 /* ZLUserDefalutHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLUserDefalutHelper.m; sourceTree = "<group>"; };
 		164D5C6918ED7E6F002C82F2 /* WSUIMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WSUIMacro.h; sourceTree = "<group>"; };
+		1672D0B218F3A5720076F90E /* CHANGELOG.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CHANGELOG.md; sourceTree = "<group>"; };
+		1672D0B318F3A5720076F90E /* JSONKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONKit.h; sourceTree = "<group>"; };
+		1672D0B418F3A5720076F90E /* JSONKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONKit.m; sourceTree = "<group>"; };
+		1672D0B518F3A5720076F90E /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+		1672D0BE18F3CB620076F90E /* 100.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 100.jpg; sourceTree = "<group>"; };
+		1672D0C018F3CBFF0076F90E /* 2.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = 2.html; sourceTree = "<group>"; };
+		1672D0C218F3D4800076F90E /* 111.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = 111.mp4; sourceTree = "<group>"; };
+		16A89DD318F39D7500B398A3 /* QiniuPutPolicy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QiniuPutPolicy.h; sourceTree = "<group>"; };
+		16A89DD418F39D7500B398A3 /* QiniuPutPolicy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QiniuPutPolicy.m; sourceTree = "<group>"; };
+		16A89DD718F39E6300B398A3 /* GTMBase64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMBase64.h; sourceTree = "<group>"; };
+		16A89DD818F39E6300B398A3 /* GTMBase64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMBase64.m; sourceTree = "<group>"; };
+		16A89DD918F39E6300B398A3 /* GTMDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMDefines.h; sourceTree = "<group>"; };
+		16AB585A18EEA29E003695EC /* WSUploadVideoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSUploadVideoViewController.h; sourceTree = "<group>"; };
+		16AB585B18EEA29E003695EC /* WSUploadVideoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSUploadVideoViewController.m; sourceTree = "<group>"; };
+		16AB585D18EEA2F2003695EC /* WSUploadVideoStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = WSUploadVideoStoryboard.storyboard; sourceTree = "<group>"; };
 		16AB7AD018ECF211001A208B /* WSHomeStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = WSHomeStoryboard.storyboard; sourceTree = "<group>"; };
 		16AB7AD118ECF211001A208B /* WSHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSHomeViewController.h; sourceTree = "<group>"; };
 		16AB7AD218ECF211001A208B /* WSHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSHomeViewController.m; sourceTree = "<group>"; };
@@ -290,6 +315,37 @@
 			path = RESideMenu;
 			sourceTree = "<group>";
 		};
+		1672D0B118F3A5720076F90E /* JSONKit */ = {
+			isa = PBXGroup;
+			children = (
+				1672D0B218F3A5720076F90E /* CHANGELOG.md */,
+				1672D0B318F3A5720076F90E /* JSONKit.h */,
+				1672D0B418F3A5720076F90E /* JSONKit.m */,
+				1672D0B518F3A5720076F90E /* README.md */,
+			);
+			path = JSONKit;
+			sourceTree = "<group>";
+		};
+		16A89DD618F39E6300B398A3 /* GTMBase64 */ = {
+			isa = PBXGroup;
+			children = (
+				16A89DD718F39E6300B398A3 /* GTMBase64.h */,
+				16A89DD818F39E6300B398A3 /* GTMBase64.m */,
+				16A89DD918F39E6300B398A3 /* GTMDefines.h */,
+			);
+			path = GTMBase64;
+			sourceTree = "<group>";
+		};
+		16AB585918EEA261003695EC /* upload */ = {
+			isa = PBXGroup;
+			children = (
+				16AB585A18EEA29E003695EC /* WSUploadVideoViewController.h */,
+				16AB585B18EEA29E003695EC /* WSUploadVideoViewController.m */,
+				16AB585D18EEA2F2003695EC /* WSUploadVideoStoryboard.storyboard */,
+			);
+			path = upload;
+			sourceTree = "<group>";
+		};
 		16AB7ACF18ECF211001A208B /* Home */ = {
 			isa = PBXGroup;
 			children = (
@@ -385,6 +441,9 @@
 		16BDB5C418E8FACB0019DF4D /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				1672D0C218F3D4800076F90E /* 111.mp4 */,
+				1672D0C018F3CBFF0076F90E /* 2.html */,
+				1672D0BE18F3CB620076F90E /* 100.jpg */,
 				16BDB5C518E8FACB0019DF4D /* WeSee-Info.plist */,
 				16BDB5C618E8FACB0019DF4D /* InfoPlist.strings */,
 				16BDB5C918E8FACB0019DF4D /* main.m */,
@@ -473,6 +532,8 @@
 		16BDB5F718E902030019DF4D /* Vendors */ = {
 			isa = PBXGroup;
 			children = (
+				1672D0B118F3A5720076F90E /* JSONKit */,
+				16A89DD618F39E6300B398A3 /* GTMBase64 */,
 				164D5C5618ED692A002C82F2 /* RESideMenu */,
 				16C4737118EAD8F100370E73 /* QiniuSDK */,
 				16BDB5F818E902030019DF4D /* File */,
@@ -483,6 +544,7 @@
 		16BDB60018E907220019DF4D /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				16AB585918EEA261003695EC /* upload */,
 				16AB7AD518ECF23B001A208B /* Login */,
 				16AB7ACF18ECF211001A208B /* Home */,
 				160D915018E98AE300198E1F /* Message */,
@@ -564,6 +626,8 @@
 		16C4737118EAD8F100370E73 /* QiniuSDK */ = {
 			isa = PBXGroup;
 			children = (
+				16A89DD318F39D7500B398A3 /* QiniuPutPolicy.h */,
+				16A89DD418F39D7500B398A3 /* QiniuPutPolicy.m */,
 				16C4737218EAD8F100370E73 /* AFNetwork2 */,
 				16C4738618EAD8F100370E73 /* QiniuBlkputRet.h */,
 				16C4738718EAD8F100370E73 /* QiniuBlkputRet.m */,
@@ -687,6 +751,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1672D0C318F3D53E0076F90E /* 111.mp4 in Resources */,
 				16BDB5FA18E902030019DF4D /* File in Resources */,
 				160D915518E98B2000198E1F /* WSMessageStoryboard.storyboard in Resources */,
 				16BDB61A18E913120019DF4D /* WSMeStoryboard.storyboard in Resources */,
@@ -694,15 +759,20 @@
 				16BDB61218E912DA0019DF4D /* WSHotStoryboard.storyboard in Resources */,
 				16BDB5C818E8FACB0019DF4D /* InfoPlist.strings in Resources */,
 				16BDB5FD18E902030019DF4D /* File in Resources */,
+				1672D0B618F3A5720076F90E /* CHANGELOG.md in Resources */,
 				16BDB5FC18E902030019DF4D /* File in Resources */,
+				16AB585E18EEA2F2003695EC /* WSUploadVideoStoryboard.storyboard in Resources */,
 				16BDB62718E943BD0019DF4D /* WSLeftStoryboard.storyboard in Resources */,
+				1672D0BF18F3CB620076F90E /* 100.jpg in Resources */,
 				16BDB5FE18E902030019DF4D /* File in Resources */,
 				16BDB5D018E8FACB0019DF4D /* Images.xcassets in Resources */,
+				1672D0B818F3A5720076F90E /* README.md in Resources */,
 				16BDB5F918E902030019DF4D /* File in Resources */,
 				16BDB5FB18E902030019DF4D /* File in Resources */,
 				16AB7AD318ECF211001A208B /* WSHomeStoryboard.storyboard in Resources */,
 				164D5C6418ED74C8002C82F2 /* WSLoginView.xib in Resources */,
 				16BDB5FF18E902030019DF4D /* File in Resources */,
+				1672D0C118F3CBFF0076F90E /* 2.html in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -759,6 +829,7 @@
 				164D5C1018ED5410002C82F2 /* WSUserModel.m in Sources */,
 				16BDB62A18E943D70019DF4D /* WSLeftViewController.m in Sources */,
 				16BDB5CE18E8FACB0019DF4D /* AppDelegate.m in Sources */,
+				16AB585C18EEA29E003695EC /* WSUploadVideoViewController.m in Sources */,
 				16C4739E18EAD8F100370E73 /* QiniuBlkputRet.m in Sources */,
 				16AB7ADB18ECF23B001A208B /* WSLoginQQManager.m in Sources */,
 				16AB7AD418ECF211001A208B /* WSHomeViewController.m in Sources */,
@@ -767,6 +838,7 @@
 				16BDB60618E907F10019DF4D /* WSBaseViewController.m in Sources */,
 				16C4739D18EAD8F100370E73 /* AFURLSessionManager.m in Sources */,
 				164D5C5F18ED692A002C82F2 /* UIViewController+RESideMenu.m in Sources */,
+				1672D0B718F3A5720076F90E /* JSONKit.m in Sources */,
 				16C473A018EAD8F100370E73 /* QiniuResumableClient.m in Sources */,
 				16C4739718EAD8F100370E73 /* AFHTTPSessionManager.m in Sources */,
 				16BDB5CA18E8FACB0019DF4D /* main.m in Sources */,
@@ -780,6 +852,7 @@
 				16C4739B18EAD8F100370E73 /* AFURLRequestSerialization.m in Sources */,
 				16C4739A18EAD8F100370E73 /* AFURLConnectionOperation.m in Sources */,
 				16C4739618EAD8F100370E73 /* AFHTTPRequestOperationManager.m in Sources */,
+				16A89DDF18F39E6300B398A3 /* GTMBase64.m in Sources */,
 				16BDB61D18E91A850019DF4D /* WSBaseNavigationController.m in Sources */,
 				164D5C0A18ED431E002C82F2 /* WSParseDataManager.m in Sources */,
 				164D5C5E18ED692A002C82F2 /* RESideMenu.m in Sources */,
@@ -788,6 +861,7 @@
 				16BDB61818E913010019DF4D /* WSMeViewController.m in Sources */,
 				16C8328418ED0D51002788AE /* ZLParseHelper.m in Sources */,
 				16BDB62018E91E230019DF4D /* WSRootViewController.m in Sources */,
+				16A89DD518F39D7500B398A3 /* QiniuPutPolicy.m in Sources */,
 				164D5C5D18ED692A002C82F2 /* RECommonFunctions.m in Sources */,
 				16BDB61518E912EF0019DF4D /* WSHotViewController.m in Sources */,
 				164D5C6818ED7A30002C82F2 /* ZLUserDefalutHelper.m in Sources */,

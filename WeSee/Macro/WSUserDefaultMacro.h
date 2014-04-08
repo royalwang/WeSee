@@ -10,7 +10,7 @@
 #define WeSee_WSUserDefaultMacro_h
 
 //userInfo
-#define kUserInfo @"userinfo"
+#define kUserToken @"usertoken"
 #define kUserInfoKey_UserName @"username"
 #define kUserInfoKey_Password @"password"
 #define kUserInfoKey_NickName @"nickname"

@@ -42,7 +42,7 @@
     [super viewWillAppear:animated];
     //检查用户是否己经登陆
     if ([self checkUserIsLogin]) {
-
+        [[WSGlobalManager sharedManager] setUserInfoWithUserDefaults];
     }else{
         UIWindow *window = [[[UIApplication sharedApplication] windows] firstObject];
         if (!_loginView) {
@@ -60,10 +60,10 @@
 
 - (BOOL)checkUserIsLogin
 {
-//    NSString *isLogin =  [ZLUserDefalutHelper userDefaultValueForKey:kUserIsLogin];
-//    if (isLogin && [isLogin boolValue]) {
-//        return YES;
-//    }
+    NSString *isLogin =  [ZLUserDefalutHelper userDefaultValueForKey:kUserIsLogin];
+    if (isLogin && [isLogin boolValue]) {
+        return YES;
+    }
     return NO;
 }
 

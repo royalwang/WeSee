@@ -109,6 +109,7 @@
         tempUserInfo[kUserInfoKey_Sex] = responseDict[@"gender"];
         [ZLUserDefalutHelper setUserDefaultValue:tempUserInfo forKey:_tencentOAuth.accessToken];
         [[WSGlobalManager sharedManager] setUserInfoWithDict:tempUserInfo];
+        [ZLUserDefalutHelper setUserDefaultValue:_tencentOAuth.accessToken forKey:kUserToken];
     }
 }
 @end

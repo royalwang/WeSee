@@ -14,7 +14,10 @@
 #define kParse_ClientKey @"fugHeeJNROt9tsqMLHEhVpb1v60K8RazxC6vD5Io"
 
 //qiniu
-
+#define kQiNiuAccessKey @"gzfUwUkdfauhi_c26yeCbWWsCPIV-Y6dKeU7TRG7"
+#define kQiNiuSearchKey @"N9tmIeOCYbSIzFdosT6gCLafTGFnk7XBK1kTS1Vl"
+#define kQiNiuBucket @"weseee"
+#define kQiNiuURL @"http://weseee.qiniudn.com"
 //qq
 #define kQQ_AppId @"101052625"
 #define kQQ_AppKey @"7250e4ddb09dff7743f2afd8295da314"

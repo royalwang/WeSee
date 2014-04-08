@@ -48,9 +48,9 @@
                 [WSGlobalManager sharedManager].userInfo.username = token;
                 [WSGlobalManager sharedManager].userInfo.password = token;
                 //登陆parse
-                if (![[WSParseDataManager sharedParseDataManager] isLogin]) {
+                if (![[WSGlobalManager sharedManager] checkLastLoginUserIsCurrentUser:token]) {
                     [[WSParseDataManager sharedParseDataManager] loginWithModel:[WSGlobalManager sharedManager].userInfo Completion:^(BOOL succees,NSError *error){
-                        NSLog(@"hehe");
+                        NSLog(@"Parse登陆成功");
                     }];
                 }
             }else{

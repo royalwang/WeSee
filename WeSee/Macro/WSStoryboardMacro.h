@@ -19,5 +19,6 @@
 #define kWS_Storyboard_Left @"WSLeft"
 #define kWS_Storyboard_Message @"WSMessage"
 #define kWS_Storyboard_Me @"WSMe"
+#define kWS_Storyboard_UploadVideo @"WSUploadVideo"
 
 #endif
