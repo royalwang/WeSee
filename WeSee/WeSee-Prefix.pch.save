@@ -20,11 +20,3 @@
     #import "ZLUserDefalutHelper.h"
     #import "WSUIMacro.h"
 #endif
-
-// From here to end of file added by Injection Plugin //
-
-#ifdef DEBUG
-#define INJECTION_ENABLED
-#endif
-
-#import "/Applications/Injection Plugin.app/Contents/Resources/BundleInterface.h"
